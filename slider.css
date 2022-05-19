@@ -1,0 +1,53 @@
+.splide__pagination{    
+    position: absolute;
+    margin-bottom: -4rem;
+    }
+
+.splide__track{
+    background-color: 'red';
+}
+
+.splide__slide{
+    display: inline-block;
+    
+     
+   
+}
+
+.slWrapper{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.splide{
+     width: 80%;
+
+}
+
+
+.splide__arrow--prev, .splide__arrow--next{
+    background-color: transparent;
+
+}
+
+.splide__arrow--prev > svg, .splide__arrow--next > svg{
+     fill:#458FF6;
+    position: absolute;
+    margin-bottom: -8rem;
+    
+    }
+
+.splide__pagination__page.is-active{
+     background: #5B9BF3;
+      opacity: 1;
+  
+}
+
+.splide__pagination__page{
+     background: #5B9BF3;
+      opacity: 0.3;
+    
+}
